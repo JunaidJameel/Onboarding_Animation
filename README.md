@@ -5,10 +5,10 @@ A beautiful and uplifting Flutter onboarding UI designed to promote wellness, fe
 
 ## ✨ Features
 
-🖼️ Animated image cards for visual storytelling
-✨ Smooth fade-in text animations using custom delays
-🎨 Elegant typography and custom fonts (Merriweather, Poppins)
-🧩 Easy to extend with additional onboarding steps or screens
+- 🖼️ Animated image cards for visual storytelling
+- ✨ Smooth fade-in text animations using custom delays
+- 🎨 Elegant typography and custom fonts (Merriweather, Poppins)
+- 🧩 Easy to extend with additional onboarding steps or screens
 
 
 
