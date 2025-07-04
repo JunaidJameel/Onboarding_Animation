@@ -1,7 +1,7 @@
 # 🧠 Animated Onboarding Screens
 
 A beautiful and uplifting Flutter onboarding UI designed to promote wellness, featuring animated visuals, inspiring tips, and smooth screen transitions.
----
+--
 
 ## ✨ Features
 
