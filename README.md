@@ -1,17 +1,14 @@
 # 🧠 Animated Onboarding Screens
 
-A beautiful and interactive Flutter UI that switches between **Day** and **Night** modes using a **Lottie animation**, a power button, and smooth theme transitions.
-
+A beautiful and uplifting Flutter onboarding UI designed to promote wellness, featuring animated visuals, inspiring tips, and smooth screen transitions.
 ---
 
 ## ✨ Features
 
-- 🔄 Toggle between light and dark modes
-- 🎞️ Smooth Lottie animation synced with theme change
-- ⚡ Responsive UI with animated power button
-- 🎨 Custom styling for day/night themes
-- ✋ Lottie animation auto-pauses at exact visual transition points
-
+🖼️ Animated image cards for visual storytelling
+✨ Smooth fade-in text animations using custom delays
+🎨 Elegant typography and custom fonts (Merriweather, Poppins)
+🧩 Easy to extend with additional onboarding steps or screens
 
 
 
