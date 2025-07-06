@@ -207,8 +207,8 @@ class OnboardingPage2 extends StatelessWidget {
               children: const [
                 AnimatedImageCard(
                   fit: BoxFit.fill,
-                  height: 220,
-                  width: 200,
+                  height: 200,
+                  width: 180,
                   assetPath: 'images/ball.jpeg',
                   delay: Duration(milliseconds: 1500),
                 ),
@@ -218,7 +218,7 @@ class OnboardingPage2 extends StatelessWidget {
                   child: AnimatedImageCard(
                     fit: BoxFit.fill,
                     height: 150,
-                    width: 200,
+                    width: 180,
                     assetPath: 'images/plane.jpeg',
                     delay: Duration(milliseconds: 2000),
                   ),
@@ -230,24 +230,11 @@ class OnboardingPage2 extends StatelessWidget {
             Center(
               child: Column(
                 children: [
-                  FadeIn(
+                  FadeInLeft(
                     duration: Duration(seconds: 1),
                     delay: Duration(seconds: 1),
                     child: Text(
-                      "Together,",
-                      style: GoogleFonts.merriweather(
-                        fontStyle: FontStyle.italic,
-                        fontSize: 35,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.green[900],
-                      ),
-                    ),
-                  ),
-                  FadeIn(
-                    duration: Duration(seconds: 1),
-                    delay: Duration(seconds: 2),
-                    child: Text(
-                      "we can",
+                      "Together we can",
                       style: GoogleFonts.merriweather(
                         fontStyle: FontStyle.italic,
                         fontSize: 35,
@@ -259,15 +246,13 @@ class OnboardingPage2 extends StatelessWidget {
                 ],
               ),
             ),
-
-            const SizedBox(height: 30),
-
+            SizedBox(height: 30),
             // Bottom images
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
                 Padding(
-                  padding: EdgeInsets.only(bottom: 100.0),
+                  padding: EdgeInsets.only(bottom: 70.0),
                   child: AnimatedImageCard(
                     height: 150,
                     width: 180,
@@ -344,7 +329,7 @@ class OnboardingPage3 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           AnimatedImageCard(
-            height: 400,
+            height: 320,
             assetPath: 'images/bg3.jpeg',
             fit: BoxFit.fill,
           ),
